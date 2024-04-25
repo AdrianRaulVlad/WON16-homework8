@@ -33,7 +33,8 @@ public class PersonInfo {
 
     public static void main(String[] args) {
         // Create a Programmer object
-        Programmer programmer = new Programmer("John", "Doe", LocalDateTime.of(1990, 5, 15, 0, 0
+        Programmer programmer;
+        programmer = new Programmer("John", "Doe", LocalDateTime.of(1990, 5, 15, 0, 0
         ), "123 Street, City", LocalDateTime.of(2020, 8, 1, 0, 0
         ), "programmer", "java");
 
